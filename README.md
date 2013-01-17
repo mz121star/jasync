@@ -40,6 +40,7 @@ jasync可以用于服务器端和浏览器端 Jasync目前正在完善中。
 
 
 >   printnum(1010).then(
+
 >     function (d) {
 >         console.log("first successfully! result is " + d);
 >     },
