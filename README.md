@@ -6,9 +6,13 @@ jasync可以用于服务器端和浏览器端 Jasync目前正在完善中。
 
 ## 在Node中使用 ##
 通过如下命令安装jasync.
+
 > npm install jasync
+
 然后可以通过如下方式引用jasync.
+
 > var jasync = require("jasync");
+
 
 ## 一切就绪，您现在就可以开始使用jasync了 ##
 
