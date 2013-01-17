@@ -18,7 +18,7 @@ jasync可以用于服务器端和浏览器端 Jasync目前正在完善中。
 
 如下代码模拟一个耗时的操作
 
-> function printnum(num) {
+> function printnum(num)  {
 >      var _j = new jasync();
 > 
 >      var print = function (i) {
@@ -38,7 +38,7 @@ jasync可以用于服务器端和浏览器端 Jasync目前正在完善中。
 >      return _j
 >  };
 
-方法返回一个**jasync**对象，我们可以通过如下方法使用 **then** 来注册该函数执行完之后的操作, **then** 包含两个参数，一个是执行成功 **resolve** 一个是执行失败
+方法返回一个 **jasync** 对象，我们可以通过如下方法使用 **then** 来注册该函数执行完之后的操作, **then** 包含两个参数，一个是执行成功 **resolve** 一个是执行失败
 **reject**
 
 
